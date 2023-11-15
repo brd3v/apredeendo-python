@@ -17,3 +17,7 @@ print(type(b))
 c = int(num_string)
 print(c)
 print(type(c))
+
+altura = 1.70
+peso = 70
+print(f'seu imc é {int(peso / (altura * altura))}')
